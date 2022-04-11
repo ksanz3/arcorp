@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* Propiedades universales */
+*{
+    box-sizing: border-box;
+}
+
+
+/* inicia el encabezado */
+.container-logo {
+padding: 1px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    padding: 3px;
+    width: 300px;
+}
+
+.container-header {
+    margin: 1%;
+}
+
+.header {
+    margin:auto;
+    padding: 2px;
+    width: 100%;
+    font-family: "arial black";
+    text-align: center;
+    border-radius: 15px;
+}
+
+.name-enterprice {
+    margin: auto;
+    color: rgb(255, 0, 25);
+}
+
+.rif {
+    margin: auto;
+    padding: 2px;
+    font-size: 10px;
+}
+
+/* hasta aquí llega el encabezado */
+
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 0;
+}
+
+/* inicia navegacion */
+
+nav {
+    text-align: center;
+    width: 80%;
+    height: auto;
+    background-color: black;
+    opacity: 1;
+    border-radius: 200px;
+    align-content: center; 
+}
+
+/* menu */
+.menu {
+        margin-left: auto; 
+        margin-right: auto;
+}
+
+.menu ul {
+    display: inline-flex;
+	margin: 1px;
+    padding: 0;
+    width: auto;
+    list-style: none;
+ 	font-family: "arial black";
+	font-size: 10px;
+}
+
+.menu a {
+	display: flex;
+	padding: 1em;
+	text-decoration: none;
+	background-color: black;
+	color:rgb(255, 255, 255);
+    border-radius: 10px;
+} 
+
+.menu a:hover {
+	background-color: rgb(243, 135, 140);
+}
+
+/* submenu */
+.menu ul li ul {
+	display: none;
+    margin: auto;
+    }
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+	display: inline;
+}
+
+/* hasta aqui llega navegacion */
+
+.container-testimonial, .container-ppal, .container-ppal2 {
+    box-shadow: 4px 4px 10px 2px rgb(87, 22, 28);
+    margin: 2% 10%;
+    padding: 15px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 
+}
+
+/* titulos */
+.ppal1-title, .ppal2-title, .testimonial-title, .testimonial-stitle, .sidebar-title {
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+    padding: 2px;
+    width: 80%;
+}
+
+/* parrafos */
+.ppal1-p, .ppal2-p, .testimonial-p, .sidebar-p {
+    margin-left:10%;
+    margin-right: ;
+    padding: 2px;
+    width: 90%;
+    text-align: justify;
+}
+
+/* imagenes */
+.item, .item2 {
+    display: block;
+    margin: auto;
+    height: 50px;
+    padding: 2px;
+}
+
+/* enfasis */
+.arcorp {
+    background-color: transparent;
+    color: rgb(221, 58, 90);
+    font-weight: bold;
+}
+/* hasta aqui llega la seccion */
+
+
+/* inicia el pie */
+footer {
+    clear: both;
+    margin: auto;
+    padding: 5px;
+    width: 80%;
+    font-family: "arial black";
+    text-align: center;
+    z-index: 1;
+    color: aliceblue;
+    background-color:rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.social{
+    margin: auto;
+    color: rgb(220, 51, 68);
+}
+
+.social-link{
+    color: chartreuse;
+    margin: 4px;
+    padding-bottom: 15px;
+}
+
+.social-link__redes {
+    color: rgb(255, 255, 255);
+}
+
+.social-link__redes:hover{
+    color: rgb(221, 58, 90);
+}
+
+.social-copyright{
+    margin: 15px;
+}
+/* finaliza pie de pagina */

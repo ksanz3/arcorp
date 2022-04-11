@@ -1,0 +1,170 @@
+* {box-sizing: border-box;}
+
+.container-logo {
+	padding: 0.1px;
+	text-align: center;
+	background-color: lightgrey;
+}
+
+.logo {
+	padding-top: 15px;
+	width: 30vw;
+	filter: drop-shadow(0 4px 4px black)
+}
+
+.container-header {
+	text-align: center;
+	background-color: lightgrey;
+}
+
+.header {
+	padding: 0.2px;
+	font-family: arial;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.name-enterprice, .rif {
+	text-shadow: 1px 1px 4px black;
+}
+
+.rif {
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+nav {
+	text-align: center;
+}
+
+.menu {
+	position: relative;
+	top: 1vh;
+	margin-left: 2vw;
+}
+
+.menu ul {
+	display: inline-flex;
+	margin-top: -3.5px;
+    padding: 0;
+    width: auto;
+    list-style: none;
+    font-family: "arial black";
+	font-size: 80%;
+}
+
+.menu a {
+	display: flex;
+	padding: 0.5em;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	text-decoration: none;
+	background-color: black;
+	color:rgb(255, 255, 255);
+    border-radius: 15px 0.1px;
+    box-shadow: inset -2px -2px 5px 1px #57161c;
+}
+
+.menu a:hover {
+	background-color: rgb(243, 135, 140);
+	box-shadow: 4px 4px 10px 2px rgb(87, 22, 28);
+}
+
+/* submenu */
+.menu ul li ul {
+	display: none;
+    margin: auto;
+    }
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+	display: inline;
+}
+
+.container-testimonial, .container-ppal, .container-ppal2, .sidebar {
+    margin: 1vh 2vw 3vh 2vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 60vw;
+    box-shadow: 4px 4px 10px 2px rgb(87, 22, 28);
+}
+
+.sidebar {
+    position: absolute;
+    right: 1vw;
+	width: 31vw;
+    height: 150vh;
+	overflow: scroll;:
+}
+
+
+/* titulos */
+.ppal1-title, .ppal2-title, .testimonial-title, .testimonial-stitle, .sidebar-title {
+    display: block;
+    margin:auto;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    padding: 2px;
+    width: 80%;
+}
+
+/* parrafos */
+.ppal1-p, .ppal2-p, .testimonial-p, .sidebar-p {
+    margin: auto;
+    padding: 2px;
+    width: 90%;
+    text-align: justify;
+}
+
+/* imagenes */
+.item, .item2 {
+    display: block;
+    margin: auto;
+    height: 50px;
+    padding: 2px;
+}
+
+/* enfasis */
+.arcorp {
+    background-color: transparent;
+    color: rgb(221, 58, 90);
+    font-weight: bold;
+}
+/* hasta aqui llega la seccion */
+
+/* inicia el pie */
+footer {
+    margin: auto;
+    padding: 5px;
+    width: 80%;
+    font-family: "arial black";
+    text-align: center;
+    color: aliceblue;
+    background-color:rgb(119, 113, 113);
+    border-radius: 15px;
+}
+
+.social{
+    margin: auto;
+    color: rgb(220, 51, 68);
+}
+
+.social-link{
+    margin: 4px;
+    padding-bottom: 15px;
+}
+
+.social-link__redes {
+    color: rgb(255, 255, 255);
+}
+
+.social-link__redes:hover{
+    color: rgb(221, 58, 90);
+}
+
+.social-copyright{
+    margin: 15px;
+}
